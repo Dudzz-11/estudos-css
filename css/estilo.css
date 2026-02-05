@@ -6,8 +6,8 @@
 body{
     margin: 0;
     font-family: "Rubik", sans-serif;
-    /*background: #9e9d9d;
-    background: linear-gradient(153deg, rgba(158, 157, 157, 1) 0%, rgba(46, 46, 46, 1) 100%);*/
+    background: #e3dede;
+    background: linear-gradient(140deg,rgba(227, 222, 222, 1) 0%, rgba(125, 125, 125, 1) 100%);
 }
 
 .navbar{
@@ -20,7 +20,7 @@ body{
 
 .logo{
     flex: 20%;
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
 }
 
@@ -61,4 +61,83 @@ body{
     border: none;
     background: white;
     color: rgb(4, 18, 95);
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(4, 18, 95);
+    padding: 0;
+    margin: 0;
+}
+
+.contact-btn{
+    background: rgb(4, 18, 95);
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.contact-btn:hover{
+    background: white;
+    color: rgb(4, 18, 95);
+    border: solid 2px rgb(4, 18, 95);
+}
+
+.headline p{
+    color: white;
+    text-align: left;
+}
+
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: solid 1px black;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 1%;
+    border: 1px solid pink;
 }
