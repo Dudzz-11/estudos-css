@@ -1,3 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Sedgwick+Ave+Display&display=swap');
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background: yellow;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    /*background: #9e9d9d;
+    background: linear-gradient(153deg, rgba(158, 157, 157, 1) 0%, rgba(46, 46, 46, 1) 100%);*/
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: "Sedgwick Ave Display", cursive;
+    color: rgb(4, 18, 95);
+    font-size: 35px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: rgb(4, 18, 95);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: white;
+    border-bottom: 3px solid rgb(4, 18, 95);
+}
+
+#botao{
+    background: rgb(4, 18, 95);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: white;
+    color: rgb(4, 18, 95);
 }
