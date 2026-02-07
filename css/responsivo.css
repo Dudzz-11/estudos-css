@@ -11,6 +11,7 @@
     }
     .header{
         padding-top: 50px;
+        height: auto;
     }
     .headline{
         flex: 100%;
